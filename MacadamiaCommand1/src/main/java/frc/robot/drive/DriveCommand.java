@@ -33,7 +33,7 @@ public class DriveCommand extends Command {
     }
     else {
         System.out.println("Working");
-        Robot.driveSys.drive.tankDrive(HumanInput.xbox.getY(Hand.kLeft)*-0.5,HumanInput.xbox.getY(Hand.kRight)*0.5);
+        Robot.driveSys.drive.tankDrive(HumanInput.xbox.getY(Hand.kLeft)*0.5,HumanInput.xbox.getY(Hand.kRight)*0.5);
     }
     
   }
